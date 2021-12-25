@@ -1,0 +1,11 @@
+<?php
+        if (isset($mega_header)){
+            foreach ($mega_header as $key) {
+                ?>
+                <div class="header_item">
+                    <img alt="<?php echo($key['title']); ?>" src="<?php echo($key->img); ?>"/>
+                </div>
+                <?php
+            }
+        }
+        ?>
